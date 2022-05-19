@@ -1,0 +1,58 @@
+.section-title, p{
+    text-align: center;
+}
+
+p span{
+    color: #4E93B0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 40px auto;
+    gap: 12px;
+}
+
+form input, form textarea, form button{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #4E93B0;
+    resize: none;
+}
+
+form div button{
+    width: 100%;
+    max-width: 200px;
+    margin-left: auto;
+    background: #4E93B0;
+    color: #E9F7FA;
+    font-size: 1rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: #059862;
+    color: white;
+}
+
+form div{
+    display: flex;
+    align-items: center;
+}
+
+.mensagm-erro{
+    color: #CA0201;
+    font-size: .9rem;
+    display: none;
+}
+
+.campo-obrigatorio{
+    background: #CA0201;
+    color: white;
+    transition: .5s;
+}
+.campo-obrigatorio::-webkit-input-placeholder {
+    color: white
+}

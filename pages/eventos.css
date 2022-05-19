@@ -1,0 +1,52 @@
+.section-eventos .cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+.section-eventos .card{
+    background: #4E93B0;
+    width: 30%;
+    text-align: center;
+    color: #E9F7FA;
+    height: 380px;
+}
+
+.card .info{
+    padding: 20px 0;
+}
+
+.card .info .title{
+    font-size: 1.4rem;
+    color: #E9F7FA;
+}
+.card .info .details{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: .8rem;
+}
+
+.card .info a{
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-top: 25px;
+    background: #315e71;
+    color: #CDEBF3;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: .3s;
+}
+.card .info a:hover{
+    background: #315e71;
+    color: #CDEBF3;
+
+    background: #CDEBF3;
+    color: #315e71;
+}
+
+.evento-imagem{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.fundo-gato{background-image: url(../assets/adocao-gatos.png);}
+.fundo-racao{background-image: url(../assets/doacao-racao.jpg);}
+.fundo-cachorro{background-image: url(../assets/adocao-cachorro.jpg);}

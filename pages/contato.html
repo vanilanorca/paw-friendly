@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
+
+    <title>Paw Friendly - Contato</title>
+
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+    <header>
+        <div class="header-banner">
+            <div>
+                <h1>Paw Friendly</h1>
+                <h2>Nós sabemos que ele é da família.</h2>
+            </div>
+            <img src="../assets/gato-banner.png" alt="">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="menu-links" href="../index.html">Home</a></li>
+            <li><a class="menu-links" href="eventos.html">Eventos</a></li>
+            <li><a class="menu-links" href="contato.html">Contate-nos</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#" class="social-media"><img src="../assets/icons/facebook.svg" alt="Facebook" title="Facebook"></a></li>
+            <li><a href="#" class="social-media"><img src="../assets/icons/instagram.svg" alt="Instagram" title="Instagram"></a></li>
+            <li><a href="#" class="social-media"><img src="../assets/icons/twitter.svg" alt="Twitter" title="Twitter"></a></li>
+            <li><a href="#" class="social-media"><img src="../assets/icons/youtube.svg" alt="Youtube" title="Youtube"></a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <div class="container">
+            <section class="section section-contato">
+                <h3 class="section-title"><strong>Aguardamos seu contato</strong></h3>
+                <p><span>Telefone:</span> (+351) 934698621 • <span>Email:</span> info@meusite.com • <span>Funcionamento:</span> Segunda a Sábado, das 08h às 19h</p>
+
+                <form id="form" onsubmit="return false">
+                    <input type="text" id="nome" placeholder="Nome">
+                    <input type="text" id="email" placeholder="Email">
+                    <input type="text" id="telefone" placeholder="Telefone">
+                    <textarea name="Mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+                    <div>
+                        <p class="mensagm-erro" id="mensagem-erro">Por favor, preencha todos os campos!</p>
+                        <button type="button" id="submit" onclick="verificar()">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <div style="background: #74AEC4; width: 100%; height: 60px;"></div>
+
+
+    <script src="contato.js"></script>
+</body>
+</html>
