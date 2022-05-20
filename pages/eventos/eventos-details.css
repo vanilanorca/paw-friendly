@@ -1,0 +1,43 @@
+.section-evento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-evento .info{
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+    background: #d7eff0;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.section-evento div p:nth-child(1){
+    color: #4E93B0;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.section-evento img{
+    margin-right: 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+}
+.buttons-container a{
+    background: #4E93B0;
+    padding: 15px 25px;
+    color: #ddeeef;
+    text-decoration: none;
+}
